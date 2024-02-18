@@ -35,23 +35,29 @@
 }
 
 .mark-down {
-  border: 2px solid black; 
+  font-size: 32px;
   min-width: 750px;
 }
 
 .raw-input {
-  border: 2px solid red;
+  
   min-width: 750px;
 }
 
 
 .text-area {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100vh;
+  background-color: inherit;
+  border-style: none;
+  font-size: 32px;
+  outline: none;
 }
 
 
-
+.text-area:focus {
+  border-style: none;
+}
 
 
 @keyframes App-logo-spin {
